@@ -1332,6 +1332,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"husky@npm:^8.0.2":
+  version: 8.0.2
+  resolution: "husky@npm:8.0.2"
+  bin:
+    husky: lib/bin.js
+  checksum: e101656fcb56163d610488f186448c78b132626aa427094489d886ce9374955a90274912b0f3a34af3326eaa74977883b032e5f701d7aaf4554daa5a7931be43
+  languageName: node
+  linkType: hard
+
 "ignore@npm:^5.2.0":
   version: 5.2.4
   resolution: "ignore@npm:5.2.4"
@@ -2190,6 +2199,7 @@ __metadata:
     eslint-config-next: 13.1.1
     eslint-config-prettier: ^8.5.0
     eslint-plugin-prettier: ^4.2.1
+    husky: ^8.0.2
     next: ^13.1.1
     prettier: ^2.8.1
     react: ^18.2.0
