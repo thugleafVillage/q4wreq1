@@ -4,12 +4,21 @@ module.exports = {
         "es2021": true
     },
     "extends": [
-        "eslint-config-next"
+        "next",
+        "prettier",
+        "eslint-config-next",
+        "plugin:prettier/recommended"
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "rules": {
-    }
+    "ignorePatterns": [
+        ".eslintrc.js",
+        "next.config.js",
+        ".vscode",
+        ".yarn",
+        ".pnp.cjs",
+        ".pnp.loader.mjs"
+    ]
 }
